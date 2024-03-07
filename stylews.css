@@ -1,0 +1,126 @@
+/* style.css */
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100%;
+    margin: 0;
+    background-image: url('clinic.jpg');
+    background-repeat: repeat;
+    background-size: 30%;
+    color: #000;
+    overflow-x: hidden;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #555;
+    text-align: center;
+    color: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+#backbtn {
+
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+#backbtn:hover {
+    color: RoyalBlue;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    min-height: 120vh;
+}
+
+
+
+.root {
+    font-size: x-large;
+    color: whitesmoke;
+    background-color: #010066;
+    box-shadow: 0 2px 5px grey;
+    padding: 0% 5% 5% 5%;
+    text-align: center;
+    border-radius: 5px 0;
+}
+
+.title {
+    border-bottom: 4px solid;
+    border-color: white;
+}
+
+input {
+    font-size: 20px;
+    padding-left: 10px;
+    outline: 2px grey;
+}
+
+
+
+
+.foot {
+    margin-bottom: 0%;
+    display: flex;
+    width: 100%;
+}
+
+.foot>button {
+    width: 48%;
+    padding: 1%;
+    margin: 1%;
+    background-color: lightblue;
+    border-radius: 5px;
+    border-color: rgb(29, 90, 29);
+    font-size: large;
+}
+
+.end-btn {
+    width: 48%;
+    padding: 1%;
+    margin: 1%;
+    background-color: lightblue;
+    border-radius: 5px;
+    border-color: rgb(29, 90, 29);
+    font-size: large;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
